@@ -1,0 +1,139 @@
+.fix-name{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+    font-size: 19px;
+
+    font-weight: 700;
+}
+.payment-wallet{
+    background: #305A61;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    padding-left: 132px;
+}
+.payment-wallet h3{
+    color: #ffffff;
+}
+.border-wallet{
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 50%;
+    padding: 24px 42px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.pb-repon{
+    padding-bottom: 24px;
+}
+
+.virtual{
+    background: #305A61;
+    padding-bottom: 42px;
+    padding-top: 42px;
+}
+.border-virtual{
+    background: #ffffff;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: -100px;
+}
+.img-line{
+    width: 35%;
+    height: 1px;
+}
+
+.virtual-tour{
+    padding: 24px 4px;
+    padding-bottom: 12px;
+}
+.body-image-360{
+    padding-top: 110px;
+}
+.action-image {
+    background-color: #305A61;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px 26px;
+    position: absolute;
+    margin-top: -12px;
+    width: 100%;
+}
+.fz-12{
+    font-size: 14px;
+    font-weight: 500;
+}
+@media all and (max-width: 976px) {
+    .border-wallet{
+  
+        width: 80%;
+  
+    }
+    .img-line{
+        width: 30%;
+    
+    }
+    .fz-16{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .border-wallet{
+  
+        width: 100%;
+  
+    }
+    .fz-16{
+        font-size: 14px;
+    }
+    .img-line{
+        width: 20%;
+    
+    }
+    .fz-12{
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 500px) {
+    .border-wallet{
+  
+       padding-left: 18px;
+       padding-right: 18px;
+       font-size: 12px;
+       
+    }
+    .pb-repon{
+        padding-bottom: 18px;
+    }
+    .action-image{
+        padding: 6px 26px;
+        margin-top: -12px;
+    }
+}
+@media all and (max-width: 365px) {
+    .pb-repon{
+        padding-bottom: 15px;
+    }
+    .border-wallet {
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 10px;
+    }
+    .img-line{
+        width: 15%;
+    
+    }
+    .fz-16{
+        font-size: 12px;
+    }
+    .action-image{
+        padding: 6px 26px;
+        margin-top: -32px;
+    }
+    .wh-fix{
+        width: 20px;
+        height: 20px;
+    }
+}

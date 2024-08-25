@@ -1,0 +1,9 @@
+/* 
+.slick-prev:before {
+    content: '←';
+    display: none !important;
+}
+.slick-next:before {
+    content: '←';
+    display: none !important;
+} */

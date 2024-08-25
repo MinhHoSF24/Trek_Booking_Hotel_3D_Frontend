@@ -1,0 +1,8 @@
+.fix-name{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+    font-size: 19px;
+
+    font-weight: 700;
+}

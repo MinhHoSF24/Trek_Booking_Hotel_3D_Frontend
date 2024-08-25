@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.tour{
+  
+    background-color: #fdfdf6;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+    color: white;
+}
+.tour__head{
+    padding-top: 10vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.panolens-canvas{
+    /* height: 100% !important; */
+}
+.image360-container{
+    height: 80vh !important;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+canvas{
+    width: 100%;
+}

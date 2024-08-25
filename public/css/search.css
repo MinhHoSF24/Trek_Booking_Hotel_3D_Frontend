@@ -1,0 +1,101 @@
+.villa-button{
+  color: #ffffff;
+  padding: 4px 16px;
+  background: #305A61;
+  border-radius: 8px;
+}
+
+.apartment-button{
+  color: black;
+  padding: 4px 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.xtra-button{
+  color: black;
+  padding: 4px 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.block1{
+  display: none;
+}
+.search-filter{
+  margin-left: -12px;
+}
+.down{
+  margin-top: -12px;
+}
+
+
+.input-star{
+  
+  height: 20px;
+  margin-left: 12px;
+  margin-top: -2px;
+}
+.text-faci{
+  margin-top: -2px;
+  margin-left: 12px;
+  color: #1F1C17; 
+}
+.border-filter{
+  border-radius: 20px;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: -2px 0 0px rgba(0, 0, 0, 0.2), /* Left */
+  2px 0 4px rgba(0, 0, 0, 0.2), /* Right */
+  0 2px 4px rgba(0, 0, 0, 0.2); /* Bottom */
+}
+.bk-white{
+  background: #ffffff;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.star{
+  width: 11px;
+  height: 11px;
+  margin-left: 12px;
+
+}
+.decor{
+  text-decoration: line-through;
+}
+.button-success{
+  color: #ffffff;
+  background: #305A61;
+  padding: 6px;
+  border-radius: 12px;
+}
+.bk-en{
+  background: #F5F5F5;
+}
+.pl-32px{
+  padding-left: 32px !important;
+}
+
+@media all and (max-width: 992px) {
+  .disnone{
+    display: none;
+  }
+
+}
+@media all and (max-width: 768px) {
+  .pl-32px{
+    padding-left: 0 !important;
+    padding-top: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+   .padding{
+      padding: 4px 4px;
+   }
+      }
+      @media all and (max-width: 320px) {
+        
+          .dis0none{
+              display: none;
+          }
+             }
